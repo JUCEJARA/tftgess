@@ -1,0 +1,14 @@
+
+# ignorar archivos generados por terraform
+.terraform/
+# ignorar archivos estados por terraform
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# ignorar archivo de bloqueo de versión de terraform
+
+*.terraform.lock.hcl
+
+
+*.log
